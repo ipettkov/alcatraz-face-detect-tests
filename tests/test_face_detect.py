@@ -12,11 +12,6 @@ class TestFaceDetectTests:
     def test_non_human(self):
         assert self.success_rate(non_human_pics) >= 90
 
-
-
-
-
-
     def success_rate(self, pictures_set):
         success = 0
         fail = 0
